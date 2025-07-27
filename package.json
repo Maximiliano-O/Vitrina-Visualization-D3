@@ -1,0 +1,17 @@
+{
+  "name": "d3-visualization",
+  "version": "1.0.0",
+  "description": "D3 Visualization for Vitrina Stare.js",
+  "author": "Maximiliano Ormeno S.",
+  "dependencies": {
+    "d3": "^7.9.0",
+    "lodash": "^4.17.21",
+    "three": "^0.178.0"
+  },
+  "scripts": {
+    "start": "parcel serve public/index.html --port 3000"
+  },
+  "devDependencies": {
+    "parcel": "^2.15.4"
+  }
+}

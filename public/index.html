@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>StArE.js Visualization Demo</title>
+  <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+  <link rel="stylesheet" href="./index.css"> 
+</head>
+<body>
+  <div class="container">
+    <div>
+      <span>Visualization:</span>
+
+      <!-- Change the name of the visualization here -->
+      <span>D3 Network example</span> 
+
+      <select id="dataset">
+        <option value="data10">Documents: 10</option>
+        <option value="data50">Documents: 50</option>
+        <option value="data100">Documents: 100</option>
+      </select>
+
+      <button id="visualizeBtn">
+        Visualize
+      </button>
+    </div>
+
+    <div id="canvas">
+
+    </div>
+  </div>
+
+  <script type="module" src="../src/main.js"></script>
+
+  <script>
+    window.onload = function() {
+      document.querySelector('#visualizeBtn').click();
+    }
+  </script>
+</body>
+</html>
