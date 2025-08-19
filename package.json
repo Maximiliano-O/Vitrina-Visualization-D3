@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "D3 Visualization for Vitrina Stare.js",
   "author": "Maximiliano Ormeno S.",
+  "main":"public/index.html",
   "dependencies": {
     "d3": "^7.9.0",
     "lodash": "^4.17.21",
